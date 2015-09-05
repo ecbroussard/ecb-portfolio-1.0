@@ -1,0 +1,7 @@
+[31-Jul-2014 23:28:42 America/Chicago] PHP Fatal error:  Interface 'Quform_Filter_Interface' not found in /home/racampc1/public_html/quform/lib/Quform/Filter/Alpha.php on line 13
+[31-Jul-2014 23:28:44 America/Chicago] PHP Fatal error:  Interface 'Quform_Filter_Interface' not found in /home/racampc1/public_html/quform/lib/Quform/Filter/Trim.php on line 13
+[31-Jul-2014 23:28:59 America/Chicago] PHP Fatal error:  Interface 'Quform_Filter_Interface' not found in /home/racampc1/public_html/quform/lib/Quform/Filter/Filename.php on line 13
+[31-Jul-2014 23:29:00 America/Chicago] PHP Fatal error:  Interface 'Quform_Filter_Interface' not found in /home/racampc1/public_html/quform/lib/Quform/Filter/AlphaNumeric.php on line 13
+[31-Jul-2014 23:29:08 America/Chicago] PHP Fatal error:  Interface 'Quform_Filter_Interface' not found in /home/racampc1/public_html/quform/lib/Quform/Filter/StripTags.php on line 13
+[31-Jul-2014 23:29:16 America/Chicago] PHP Fatal error:  Interface 'Quform_Filter_Interface' not found in /home/racampc1/public_html/quform/lib/Quform/Filter/Regex.php on line 13
+[31-Jul-2014 23:29:21 America/Chicago] PHP Fatal error:  Interface 'Quform_Filter_Interface' not found in /home/racampc1/public_html/quform/lib/Quform/Filter/Digits.php on line 13

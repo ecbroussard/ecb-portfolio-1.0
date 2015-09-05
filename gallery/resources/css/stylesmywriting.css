@@ -1,0 +1,721 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url(../../images/blackwood.jpg);
+	background-color: #FFF;}
+#header img {
+	margin: auto;
+	width: 100%;
+	height: auto;
+	position: relative;
+	border: 2px solid #CCC;
+	z-index:1;}
+#wrapper {
+	margin: auto;
+	width: 50%;
+	height: auto;
+	position: relative;
+	top: -30px;
+	background-color: #CCC;
+	border-radius: 25px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	padding-left: 25px; }
+#wrapper h1 {
+	font-family: Cookie, Helvetica, sans-serif;
+	font-size: 350%;
+	color: black;
+	text-align: center; }
+#wrapper p {
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: black; }
+#wrapper h2 {
+font-family: "Palatino Linotype", Palatino, "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 175%;
+	color: black;
+	margin-top: -5px;
+	text-align: left; }
+#wrapper h3 {
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	color: black; }
+#footer {
+	margin: auto;
+	width: 50%;
+	position: relative;
+	top: -70px;
+	background-color: #000;
+	z-index:1; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	padding-left: 25px; }
+#footer p {
+	text-align: right;
+	color: #FFF;
+	margin: auto;
+	position; relative;}
+#footer a:link {
+	color: white; }
+#footer a:visited {
+	color: #993399; }
+#footer a:hover {
+	color: #CC33CC; }
+a:link {
+	color: #000; }
+a:visited {
+	color: #993399; }
+a:hover {
+	color: #CC33CC; }
+#contactmeform {
+	padding-left: 50px; }
+#morecontactmethods {
+	position: absolute;
+	top:22%;
+	left:65%;
+	z-index: 1; }
+#wrapper h2#aboutmeheads {
+	font-family: "Palatino Linotype", Palatino, "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 175%;
+	color: black;
+	margin-top: -5px;
+	text-align: center; }
+#video {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 500; }
+
+/*This is where the lightroom css begins*/
+#lightroom #previewFull {
+  background-color: #B7B29E !important;
+  width: 943px !important;
+  color: inherit;
+}
+
+#lightroom #liveUpdateContactInfo {
+}
+
+#lightroom #sitetitle {
+  border-bottom: 1px dotted #201F1C !important;
+}
+
+#lightroom body {
+  background-color: #E2E0D8 !important;
+  color: inherit;
+}
+
+#lightroom #stage, #stage2 {
+  border-bottom: 1px dotted #201F1C !important;
+}
+
+#lightroom .borderRight {
+  border-right: 1px solid #E2E0D8 !important;
+}
+
+#lightroom #wrapper_thumb {
+  width: 484px !important;
+}
+
+#lightroom .logo {
+  display: none !important;
+}
+
+#lightroom .detailText {
+  color: #FFFFFF !important;
+  background-color: inherit;
+}
+
+#lightroom .preview {
+  border: 3px solid #FFFFFF !important;
+}
+
+#lightroom .thumbnail {
+  background-color: #201F1C !important;
+  color: inherit;
+}
+
+#lightroom .itemNumber {
+  color: #FFFFFF !important;
+  display: inherit !important;
+  background-color: inherit;
+}
+
+#lightroom #stage2 {
+  width: 943px !important;
+}
+
+#lightroom .thumb, .preview {
+}
+
+#lightroom .selectedThumbnail, .thumbnail:hover {
+  background-color: #B7B29E !important;
+  color: inherit;
+}
+
+#lightroom .borderTopLeft {
+  border-top: 1px solid #E2E0D8 !important;
+  border-left: 1px solid #E2E0D8 !important;
+}
+
+#lightroom .borderRightDotted {
+  border-right: 1px dotted #E2E0D8 !important;
+}
+
+#lightroom .caption {
+  color: #B3B3B3 !important;
+  background-color: inherit;
+}
+
+#lightroom .emptyThumbnail {
+  background-color: #201F1C !important;
+  color: inherit;
+}
+
+#lightroom #wrapper_large {
+  width: 943px !important;
+}
+
+#lightroom .borderBottomRight {
+  border-right: 1px solid #E2E0D8 !important;
+  border-bottom: 1px solid #E2E0D8 !important;
+}
+
+#lightroom #previewImage {
+  maxSize: 907.00 !important;
+}
+
+#lightroom .paginationLinks, .pagination, #liveUpdatePagination {
+}
+
+#lightroom .thumb {
+  border: 1px solid #000000 !important;
+}
+
+#lightroom #liveUpdateSiteTitle {
+}
+
+#lightroom .borderBottom {
+  border-bottom: 1px solid #E2E0D8 !important;
+}
+
+#lightroom #stage {
+  width: 484px !important;
+}
+
+#lightroom .textColor {
+  color: #201F1C !important;
+  background-color: inherit;
+}
+
+#lightroom * {
+	margin:0;
+	padding:0;
+}
+#lightroom body {
+	text-align:center;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding: 20px 0;
+}
+#lightroom img {
+	border: 0;
+}
+/* TYPOGRAPHY */
+#lightroom body, h1, h2, h3, h4, h5, h6, p, a {
+	background-color:inherit;
+	color: #b3b3b3;
+	font-size: 12px;
+	font-family: helvetica, arial, tahoma, verdana, sans-serif;
+}
+/* LINKS */
+#lightroom a, a:link, a:hover {
+	text-decoration:underline;
+	color:inherit;
+	cursor:pointer;
+}
+#lightroom a:link a:visited a:hover, a:active {
+	color:inherit;
+	text-decoration:none;
+}
+/* MISC */
+#lightroom .clear {
+	clear: both;
+}
+.borderTopLeft {
+	border-top: 1px solid #787878;
+	border-left: 1px solid #787878;
+}
+#lightroom .borderBottomRight {
+	border-right: 1px solid #787878;
+	border-bottom: 1px solid #787878;
+}
+#lightroom .borderRight {
+	border-right: 1px solid #787878;
+}
+#lightroom .borderRightDotted {
+	border-right: 1px dotted #787878;
+}
+/* SITE WRAPPER */
+#lightroom #wrapper_large, #wrapper_thumb {
+	text-align:left;
+	width: 807px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* ID PLATE */
+#lightroom #idplate {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#lightroom #idplate .logo {
+}
+/* SITE TITLE */
+#lightroom #sitetitle {
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #7f7f7f;
+}
+#lightroom #sitetitle h1 {
+	background-color:inherit;
+	font-size: 20px;
+}
+/* COLLECTION HEADER */
+#lightroom #collectionHeader {
+	margin-bottom: 15px;
+}
+#lightroom #collectionHeader h1 {
+	font-size: 14px;
+}
+#lightroom #collectionHeader p {
+	line-height: 16px;
+	margin-top: 5px;
+}
+/* COLLECTION INLINE */
+#lightroom #collectionInline {
+	float: left;
+	position: relative;
+	color:inherit;
+	background-color: #b3b3b3;
+width: 321px /*2 x CellWidth + 1px Gap*/
+;
+height: 482px /*3 x CellHeight + 2px Gap*/
+;
+	overflow: hidden;
+}
+#lightroom #collectionInline .padding {
+	padding: 15px;
+}
+#lightroom #collectionInline h1 {
+	background-color:inherit;
+	color: #4c4c4c;
+	font-size: 14px;
+}
+#lightroom #collectionInline p {
+	background-color:inherit;
+	color: #4c4c4c;
+	line-height: 16px;
+	margin-top: 5px;
+}
+/* STYLE SWITCHER */
+#lightroom #styleswitcher {
+	float: left;
+	margin-bottom: 10px;
+	border-right: 1px solid #787878;
+}
+#lightroom #styleswitcher img {
+	float: left;
+	border-left: 1px solid #787878;
+	border-bottom: 1px solid #787878;
+	width: 12px;
+	height: 7px;
+}
+/* PAGINATION */
+#lightroom .pagination {
+	float: right;
+	margin-bottom: 10px;
+	padding: 0;
+}
+#lightroom .pagination ul {
+	margin: 0;
+	padding: 0;
+}
+#lightroom .pagination li {
+	float: left;
+	list-style: none;
+	padding: 5px;
+}
+#lightroom .pagination li, .pagination a {
+}
+#lightroom .pagination .previous {
+	font-weight: bold;
+	margin-left: 25px;
+}
+#lightroom .pagination .next {
+	font-weight: bold;
+}
+#lightroom .pagination .readout {
+	font-weight: bold;
+}
+#lightroom .pagination .current {
+	border: solid 1px #7f7f7f;
+}
+/* QUICK JUMP */
+#lightroom #quickjump {
+	float: right;
+	margin-bottom: 10px;
+	padding: 0;
+}
+/* CONTACT */
+#lightroom #contact {
+	/*float: left;
+*/
+	margin-bottom: 10px;
+	padding: 5px 0;
+}
+#lightroom #contact span, #contact a {
+}
+/* STAGE */
+#lightroom #stage, #stage2, #index {
+	float: left;
+	position: relative;
+	margin: 0;
+}
+
+#lightroom #stage, #stage2 {
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #7f7f7f;
+}
+
+/* PREVIEW FULL */
+#lightroom #previewFull {
+	float: left;
+	position: relative;
+	color:inherit;
+	background-color: #191919;
+}
+#lightroom #previewFull .padding {
+	padding-top: 15px;
+}
+/* TRANSPORT CONTROLS */
+#lightroom #previewSmall .previewSmallNav {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 15px;
+}
+/* PAGINATION */
+#lightroom .previewFullNav ul {
+	margin: 0;
+	padding: 5px;
+}
+#lightroom .previewFullNav li {
+	display: inline;
+	padding: 10px;
+}
+/* INDEX - GRID */
+#lightroom .thumbnail {
+	float: left;
+	position: relative;
+	color:inherit;
+	background-color: #949494;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+}
+#lightroom .selectedThumbnail, .thumbnail:hover {
+	color:inherit;
+	background-color: #a1a1a1;
+}
+#lightroom .emptyThumbnail {
+	float: left;
+	position: relative;
+	color:inherit;
+	background-color: #949494;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+}
+/* INDEX */
+#lightroom .selected {
+	color:inherit;
+	background-color: #a1a1a1;
+}
+#lightroom .selected:hover {
+	color:inherit;
+	background-color: #a1a1a1;
+}
+#lightroom .selected .alignmentInner img {
+	border: solid 3px white;
+	padding: 0;
+	margin: 0;
+}
+#lightroom .itemNumber {
+	z-index: 0;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	background-color:inherit;
+	color: #9c9c9c;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+#lightroom .fullSize {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#lightroom .sendMail {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/* INDEX - LIST */
+#lightroom .row {
+	position: relative;
+	color:inherit;
+	background-color: #a1a1a1;
+width: 804px /*5 x CellWidth + 4px Gap*/
+;
+	height: 160px;
+	overflow: hidden;
+}
+#lightroom .cellThumbnail {
+	float: left;
+	position: relative;
+	color:inherit;
+	background-color: #949494;
+	width: 200px;
+	height: 100%;
+	overflow: hidden;
+}
+#lightroom .cellThumbnail:hover {
+	color:inherit;
+	background-color: #949494;
+}
+#lightroom .cellDescription {
+	float: left;
+	position: relative;
+	width: 350px;
+	height: 100%;
+	overflow: hidden;
+}
+#lightroom .cellDescription .padding {
+	padding: 10px;
+}
+#lightroom .cellDescription h1 {
+	background-color:inherit;
+	color: #E5E5E5;
+	font-size: 14px;
+}
+#lightroom .cellDescription p {
+	background-color:inherit;
+	color: #E5E5E5;
+	line-height: 16px;
+	margin-top: 5px;
+}
+#lightroom .cellMetaData {
+	float: left;
+	position: relative;
+	color:inherit;
+	background-color: #9D9D9D;
+	width: 250px;
+	height: 100%;
+	overflow: hidden;
+}
+#lightroom .cellMetaDataContainer {
+	width: 250px;
+}
+#lightroom .cellMetaDataLabel {
+	float: left;
+	width: 40%;
+	text-align: right;
+}
+#lightroom .cellMetaDataLabel p {
+	background-color:inherit;
+	color: #e5e5e5;
+	font-size: 10px;
+	line-height: 12px;
+	padding-right: 3px;
+}
+#lightroom .cellMetaDataData {
+	float: left;
+	width: 60%;
+	text-align: left;
+}
+#lightroom .cellMetaDataData p, .cellMetaDataData a {
+	background-color:inherit;
+	color: #E5E5E5;
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: bold;
+	padding-left: 3px;
+}
+/* PROPER ALIGNMENT INSIDE CELLS */
+#lightroom .alignmentOuterGrid {
+	z-index: 1;
+	position: static;
+	text-align: center;
+	display: table;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#lightroom .alignmentOuter {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#lightroom .alignmentOuter {
+	position: static;
+	text-align: center;
+	display: table;
+}
+
+#lightroom .alignmentMiddle {
+	position: static;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#lightroom .alignmentInner {
+	position: static;
+}
+#lightroom .AdjustZIndex {
+	position: relative;
+}
+/* Metadata Formatting */
+#lightroom .previewFullMetadata hr {
+	border:0;
+	height: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+#lightroom #detailTitle {
+	margin: 10px 0 0 0;
+	float:left;
+	clear:both;
+	text-align: center;
+	width: 100%;
+}
+
+#lightroom .detailNav {
+	width: 100%;
+	float:left;
+	clear: both;
+	text-align: center;
+
+}
+
+#lightroom .detailNav ul {
+	margin: 10px auto;
+	text-align: center;
+}
+
+#lightroom .detailNav ul li {
+	display:inline;
+	text-align: center;
+	list-style: none;
+	padding: 5px;
+}
+
+
+
+#lightroom #detailImage {
+	text-align: center;
+	width: 100%;
+}
+
+#lightroom #detailCaption {
+	margin: 10px;
+	text-align: center;
+}
+
+
+#lightroom .previewMetadataRow {
+	display:block;
+	font-size: 11px;
+	text-align:center;
+	clear:both;
+}
+
+#lightroom .previewMetadataLabel {
+	margin-right: 3px;
+	display:inline;
+	font-size: 11px;
+	text-align:right;
+	clear:both;
+}
+
+
+#lightroom .previewMetadataData {
+	display:inline;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#lightroom .preview {
+	border: 1px solid black;
+	position: relative;
+}
+
+#lightroom .thumb {
+	border: 1px solid black;
+	position: relative;
+}
+
+#lightroom .dropShadow {
+	background: url(../misc/shadow.png) right bottom no-repeat;
+	display: block;
+	float: left;
+	margin: 13px -10px -10px 10px;
+	position: relative;
+}
+
+
+#lightroom .dropShadow:before, .dropShadow:after {
+	background: inherit;	
+	content: " ";
+	display: block;
+	height: 10px;
+	width: 10px;
+}
+
+#lightroom .dropShadow:before {
+	background-position: right top;
+	margin: -10px 0 0 auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#lightroom .dropShadow:after {
+	background-position: left bottom;
+	margin: -13px 0 0 -10px;
+}
+
+#lightroom .dropShadow .inner {
+	display: block;
+	left: -10px;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+	top: -13px;
+}
+
+/*This is where the lightroom css ends*/

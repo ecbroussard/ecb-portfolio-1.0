@@ -1,0 +1,3 @@
+[31-Jul-2014 23:28:55 America/Chicago] PHP Fatal error:  Class 'Quform_Element' not found in /home/racampc1/public_html/quform/lib/Quform/Element/Date.php on line 13
+[31-Jul-2014 23:29:29 America/Chicago] PHP Fatal error:  Class 'Quform_Element' not found in /home/racampc1/public_html/quform/lib/Quform/Element/File.php on line 13
+[31-Jul-2014 23:29:32 America/Chicago] PHP Fatal error:  Class 'Quform_Element' not found in /home/racampc1/public_html/quform/lib/Quform/Element/Time.php on line 13
